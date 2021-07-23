@@ -5,8 +5,18 @@
   text-align: center;
 }
 
+input {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 70vw;
+  height: 50px;
+  border-radius: 5px;
+}
 @media only screen and (max-width: 600px) {
   .App {
     text-align: justify;
+  }
+  input {
+    margin-left: 60px;
   }
 }

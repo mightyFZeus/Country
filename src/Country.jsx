@@ -71,15 +71,17 @@ const Country = () => {
                         name="search-form"
                         id="search-form"
                         className="search-input"
-                        placeholder="Search for..."
+                        placeholder="Search Countries"
                         value={q}
+                        
+
                         /* 
                         // set the value of our useState e
                         //  anytime the user types in the search box
                         */
                         onChange={(e) => setQ(e.target.value)}
                     />
-                    <span className="sr-only">Search countries here</span>
+                  
                 </label>
             </div>
             <ul className="card-grid">
